@@ -1,0 +1,90 @@
+Request:	http://zahidraza.in/andon_system/restapi/res/init
+
+Response:
+
+{
+	"issueSync": 1466482063350,
+	"launchTime": 1466459234122,
+	"lines": 8,
+	"departments": [
+    {
+      "id": 1,
+      "name": "Cutting"
+    },
+    .
+	.
+  ],
+  "desgnLine": [
+    {
+      "key": 1,
+      "value": 1
+    },
+	.
+	.
+  ],
+  "desgnProblem": [
+    {
+      "key": 1,
+      "value": 1
+    },
+    .
+	.
+  ],
+  "desgns": [
+    {
+      "desnId": 1,
+      "name": "Floor IE 1st Floor"
+    },
+	.
+	.
+  ],
+
+  "issues": [
+    {
+      "ackAt": 0,
+      "critical": "NO",
+      "deptId": 1,
+      "desc": "Quality problem ",
+      "id": 2,
+      "line": 1,
+      "operatorNo": "OP536",
+      "probId": 2,
+      "raisedAt": 1466482013000,
+      "raisedBy": 55555,
+      "secId": 1,
+      "fixAt": 0,
+      "status": 0
+    }
+	.
+	.
+  ],
+
+  "problems": [
+    {
+      "deptId": 1,
+      "name": "Loading Problem",
+      "probId": 1
+    },
+	.
+	.
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "name": "Front"
+    },
+	.
+	.
+  ],
+  "users": [
+    {
+      "desgnId": 39,
+      "level": 4,
+      "mobile": "9852704092",
+      "userId": 55555,
+      "username": "Md Zahid Raza"
+    },
+	.
+	.
+  ]
+}

@@ -1,0 +1,16 @@
+Request:	http://zahidraza.in/andon_system/restapi/res/auth?userId={userId}&password={password}
+
+Response:
+
+{
+  "code": "success",
+  "data": {
+    "authToken": "4c9al3Wu8ATEJsMLqwBO",
+    "desgnId": 39,
+    "email": "zahid7292@ymail.com",
+    "level": 4,
+    "mobile": "9852704092",
+    "userId": 55555,
+    "username": "Md Zahid Raza"
+  }
+}

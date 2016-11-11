@@ -1,0 +1,34 @@
+Sample GET Request:
+set header with Content-Type : applicato/json
+
+{
+    "line":1,
+    "secId":1,
+    "deptId":1,
+    "probId":1,
+    "critical":"YES",
+    "operatorNo":"MN6577",
+    "desc":"Probelm xyz was detected",
+    "raisedBy":"55550"
+}
+
+Sample POST Response:
+{
+    "issueSynch": 1466050684379,
+    "issues": [
+        {
+          "ackAt": 0,
+          "ackBy": 0,
+          "critical": "YES",
+          "deptId": 1,
+          "desc": "Probelm xyz was detected",
+          "id": 1,
+          "line": 1,
+          "operatorNo": "MN6577",
+          "probId": 1,
+          "raisedAt": 1466050650000,
+          "secId": 1,
+          "fixAt": 0
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+Send SMS:
+
+API KEY: Ac6e03dbeee67eae9e178f428f3371b3a
+
+http://sms.variforrmsolution.com/apiv2/?api=http&workingkey=Ac6e03dbeee67eae9e178f428f3371b3a&to=<MOBILE NO>&sender=AndSys&message=
+
+Add Designation:
+
+	1. http://url/andon_system/designation?name={desgn name}&level={user Level}    	//Without Problem Mapping
+	2. http://url/andon_system/designation?name={desgn name}&level={user Level}&lines={comma separted line}&probs={comma separated prob_id}   //With line and user mapping
